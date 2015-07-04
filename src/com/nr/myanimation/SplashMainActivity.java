@@ -10,6 +10,7 @@ package com.nr.myanimation;
 
 import com.nr.myanimation.adapter.AnimationAdapter;
 import com.nr.myanimation.base.ContantValue;
+import com.nr.myanimation.customactivity.OutTicketActivity;
 import com.nr.myanimation.listviewactivity.GoogleCardsActivity;
 import com.nr.myanimation.splashactivity.LensFocusActivity;
 import com.nr.myanimation.splashactivity.ZakerActivity;
@@ -61,22 +62,22 @@ public class SplashMainActivity extends Activity implements OnItemClickListener 
 			break;
 		case 2:
 			startIntent(GoogleCardsActivity.class);
-			// break;
-			// case 3:
-			// startIntent(Rotate3DActivity.class);
-			// break;
-			// case 4:
-			// startIntent(ViewPagerActivity.class);
-			// break;
-			// case 5:
-			// startIntent(Activity1.class);
-			// break;
-			// case 6:
-			// startIntent(FadeSplashScreenActivity.class);
-			// break;
-			// case 7:
-			// startIntent(Fade2MainActivity.class);
-			// break;
+			break;
+		case 3:
+			startIntent(OutTicketActivity.class);
+			break;
+		// case 4:
+		// startIntent(ViewPagerActivity.class);
+		// break;
+		// case 5:
+		// startIntent(Activity1.class);
+		// break;
+		// case 6:
+		// startIntent(FadeSplashScreenActivity.class);
+		// break;
+		// case 7:
+		// startIntent(Fade2MainActivity.class);
+		// break;
 
 		default:
 			break;

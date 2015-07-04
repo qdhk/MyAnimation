@@ -1986,88 +1986,108 @@ containing a value of this type.
         public static final int wheel_val=0x7f02021d;
     }
     public static final class id {
-        public static final int action_bar=0x7f05001a;
+        public static final int action_bar=0x7f05001b;
         public static final int action_bar_activity_content=0x7f050015;
-        public static final int action_bar_container=0x7f050019;
-        public static final int action_bar_overlay_layout=0x7f05001d;
-        public static final int action_bar_root=0x7f050018;
-        public static final int action_bar_subtitle=0x7f050021;
-        public static final int action_bar_title=0x7f050020;
-        public static final int action_context_bar=0x7f05001b;
+        public static final int action_bar_container=0x7f05001a;
+        public static final int action_bar_overlay_layout=0x7f05001e;
+        public static final int action_bar_root=0x7f050019;
+        public static final int action_bar_subtitle=0x7f050022;
+        public static final int action_bar_title=0x7f050021;
+        public static final int action_context_bar=0x7f05001c;
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
-        public static final int action_mode_bar=0x7f05002f;
-        public static final int action_mode_bar_stub=0x7f05002e;
-        public static final int action_mode_close_button=0x7f050022;
-        public static final int action_settings=0x7f050053;
-        public static final int activity_chooser_view_content=0x7f050023;
-        public static final int activity_googlecards_card_imageview=0x7f050045;
-        public static final int activity_googlecards_card_textview=0x7f050044;
-        public static final int activity_googlecards_listview=0x7f050043;
-        public static final int ae=0x7f050051;
-        public static final int af=0x7f050052;
+        public static final int action_mode_bar=0x7f050030;
+        public static final int action_mode_bar_stub=0x7f05002f;
+        public static final int action_mode_close_button=0x7f050023;
+        public static final int action_settings=0x7f050067;
+        public static final int activity_chooser_view_content=0x7f050024;
+        public static final int activity_googlecards_card_imageview=0x7f050059;
+        public static final int activity_googlecards_card_textview=0x7f050058;
+        public static final int activity_googlecards_listview=0x7f050057;
+        public static final int ae=0x7f050065;
+        public static final int af=0x7f050066;
         public static final int always=0x7f05000b;
-        public static final int av=0x7f050050;
+        public static final int av=0x7f050064;
         public static final int beginning=0x7f050011;
-        public static final int btn_Below=0x7f050049;
-        public static final int btn_above=0x7f05004b;
-        public static final int checkbox=0x7f05002b;
+        public static final int btn_Below=0x7f05005d;
+        public static final int btn_above=0x7f05005f;
+        public static final int checkbox=0x7f05002c;
         public static final int collapseActionView=0x7f05000d;
-        public static final int default_activity_button=0x7f050026;
+        public static final int default_activity_button=0x7f050027;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
         public static final int dropdown=0x7f05000f;
-        public static final int edit_query=0x7f050036;
+        public static final int edit_query=0x7f050037;
         public static final int end=0x7f050013;
-        public static final int expand_activities_button=0x7f050024;
-        public static final int expanded_menu=0x7f05002a;
+        public static final int expand_activities_button=0x7f050025;
+        public static final int expanded_menu=0x7f05002b;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
-        public static final int icon=0x7f050028;
+        public static final int icon=0x7f050029;
         public static final int ifRoom=0x7f05000a;
-        public static final int image=0x7f050025;
-        public static final int imageView_pic=0x7f050046;
-        public static final int left_icon=0x7f050031;
+        public static final int ig_line=0x7f050045;
+        public static final int image=0x7f050026;
+        public static final int imageView_pic=0x7f05005a;
+        public static final int iv_export=0x7f050049;
+        public static final int iv_success=0x7f050047;
+        public static final int left_icon=0x7f050032;
         public static final int listMode=0x7f050001;
-        public static final int listView_anim_complex=0x7f050042;
-        public static final int list_item=0x7f050027;
-        public static final int ll=0x7f05004d;
-        public static final int mainFrame=0x7f050048;
+        public static final int listView_anim_complex=0x7f050043;
+        public static final int list_item=0x7f050028;
+        public static final int ll=0x7f050061;
+        public static final int ll_order_num=0x7f05004b;
+        public static final int ll_payment=0x7f050051;
+        public static final int ll_payment_date=0x7f050054;
+        public static final int ll_third_title=0x7f050044;
+        public static final int ll_total_money=0x7f05004e;
+        public static final int mainFrame=0x7f05005c;
         public static final int middle=0x7f050012;
-        public static final int myImage=0x7f05004a;
+        public static final int myImage=0x7f05005e;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
-        public static final int progress_circular=0x7f050034;
-        public static final int progress_horizontal=0x7f050035;
-        public static final int radio=0x7f05002d;
-        public static final int right_container=0x7f050032;
-        public static final int right_icon=0x7f050033;
-        public static final int search_badge=0x7f050038;
-        public static final int search_bar=0x7f050037;
-        public static final int search_button=0x7f050039;
-        public static final int search_close_btn=0x7f05003e;
-        public static final int search_edit_frame=0x7f05003a;
-        public static final int search_go_btn=0x7f050040;
-        public static final int search_mag_icon=0x7f05003b;
-        public static final int search_plate=0x7f05003c;
-        public static final int search_src_text=0x7f05003d;
-        public static final int search_voice_btn=0x7f050041;
-        public static final int shortcut=0x7f05002c;
+        public static final int progress_circular=0x7f050035;
+        public static final int progress_horizontal=0x7f050036;
+        public static final int radio=0x7f05002e;
+        public static final int right_container=0x7f050033;
+        public static final int right_icon=0x7f050034;
+        public static final int rl_payInfo=0x7f05004a;
+        public static final int rl_success=0x7f050046;
+        public static final int search_badge=0x7f050039;
+        public static final int search_bar=0x7f050038;
+        public static final int search_button=0x7f05003a;
+        public static final int search_close_btn=0x7f05003f;
+        public static final int search_edit_frame=0x7f05003b;
+        public static final int search_go_btn=0x7f050041;
+        public static final int search_mag_icon=0x7f05003c;
+        public static final int search_plate=0x7f05003d;
+        public static final int search_src_text=0x7f05003e;
+        public static final int search_voice_btn=0x7f050042;
+        public static final int shortcut=0x7f05002d;
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
         public static final int showTitle=0x7f050006;
-        public static final int split_action_bar=0x7f05001c;
-        public static final int submit_area=0x7f05003f;
+        public static final int split_action_bar=0x7f05001d;
+        public static final int submit_area=0x7f050040;
         public static final int tabMode=0x7f050002;
-        public static final int textView_desc=0x7f050047;
-        public static final int textView_name=0x7f05004f;
-        public static final int textView_num=0x7f05004e;
-        public static final int title=0x7f050029;
-        public static final int title_container=0x7f050030;
-        public static final int top_action_bar=0x7f05001e;
-        public static final int tv_hint=0x7f05004c;
-        public static final int up=0x7f05001f;
+        public static final int tag_async_image_view_position=0x7f050018;
+        public static final int textView_desc=0x7f05005b;
+        public static final int textView_name=0x7f050063;
+        public static final int textView_num=0x7f050062;
+        public static final int title=0x7f05002a;
+        public static final int title_container=0x7f050031;
+        public static final int top_action_bar=0x7f05001f;
+        public static final int tv_hint=0x7f050060;
+        public static final int tv_hint_success=0x7f050048;
+        public static final int tv_order_num=0x7f05004c;
+        public static final int tv_order_num2=0x7f05004d;
+        public static final int tv_payment=0x7f050052;
+        public static final int tv_payment2=0x7f050053;
+        public static final int tv_payment_date=0x7f050055;
+        public static final int tv_payment_date2=0x7f050056;
+        public static final int tv_total_money1=0x7f05004f;
+        public static final int tv_total_money2=0x7f050050;
+        public static final int up=0x7f050020;
         public static final int useLogo=0x7f050003;
         public static final int withText=0x7f05000c;
     }
@@ -2122,18 +2142,23 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030016;
         public static final int abc_search_view=0x7f030017;
         public static final int activity_anim_complex=0x7f030018;
-        public static final int activity_listviews_googlecards=0x7f030019;
-        public static final int activity_listviews_googlecards_card=0x7f03001a;
-        public static final int activity_main=0x7f03001b;
-        public static final int activity_splash_lens_focus=0x7f03001c;
-        public static final int activity_splash_zaker=0x7f03001d;
-        public static final int item_listview_anim=0x7f03001e;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
+        public static final int activity_imitate_outticket=0x7f030019;
+        public static final int activity_listviews_googlecards=0x7f03001a;
+        public static final int activity_listviews_googlecards_card=0x7f03001b;
+        public static final int activity_main=0x7f03001c;
+        public static final int activity_splash_lens_focus=0x7f03001d;
+        public static final int activity_splash_zaker=0x7f03001e;
+        public static final int item_listview_anim=0x7f03001f;
+        public static final int support_simple_spinner_dropdown_item=0x7f030020;
     }
     public static final class menu {
-        public static final int main=0x7f0c0000;
+        public static final int main=0x7f0d0000;
+    }
+    public static final class plurals {
+        public static final int countdown_seconds=0x7f0c0000;
     }
     public static final class string {
+        public static final int BaseAnimation=0x7f0a0010;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0a0001;
@@ -2174,19 +2199,178 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        public static final int action_settings=0x7f0a000f;
+        public static final int aboutContent=0x7f0a0078;
+        public static final int action_settings=0x7f0a000e;
+        public static final int activity_title=0x7f0a0011;
+        public static final int add=0x7f0a0060;
+        public static final int and=0x7f0a005e;
+        /**  翻页效果的listView ListForPage  End 
+ 小米启动 
+         */
+        public static final int ani_time=0x7f0a008a;
+        public static final int ani_time2=0x7f0a008b;
+        public static final int animateremoval=0x7f0a0043;
         public static final int app_name=0x7f0a000d;
-        public static final int hello_world=0x7f0a000e;
+        public static final int appearance=0x7f0a003d;
+        public static final int backspace=0x7f0a006c;
+        public static final int cbrt=0x7f0a0065;
+        public static final int clear=0x7f0a0068;
+        /**  计算器End 
+ 自定义进度条Start 
+         */
+        public static final int color=0x7f0a0079;
+        public static final int comma=0x7f0a006d;
+        public static final int cos=0x7f0a006f;
+        public static final int countdown_dismissing=0x7f0a004a;
+        public static final int current=0x7f0a0089;
+        public static final int divide=0x7f0a0063;
+        public static final int dot=0x7f0a0066;
+        public static final int draganddrop=0x7f0a0041;
+        public static final int e=0x7f0a005d;
+        public static final int equals=0x7f0a0067;
+        public static final int expandablelistitemadapter=0x7f0a0045;
+        public static final int expandorcollapsecard=0x7f0a0049;
+        public static final int explainexpand=0x7f0a0048;
+        /**  ListViewsx效果集合End 
+ circlemenu 
+         */
+        public static final int facebook=0x7f0a004b;
+        public static final int google=0x7f0a004d;
+        public static final int googlecards=0x7f0a003b;
+        public static final int gridview=0x7f0a003c;
+        /**  自定义进度条End 
+  
+         */
+        public static final int gridview1=0x7f0a007d;
+        public static final int gridview2=0x7f0a007e;
+        public static final int gridview3=0x7f0a007f;
+        public static final int gridview4=0x7f0a0080;
+        public static final int gridview5=0x7f0a0081;
+        public static final int gridview6=0x7f0a0082;
+        public static final int gridview7=0x7f0a0083;
+        public static final int gridview8=0x7f0a0084;
+        public static final int gridview9=0x7f0a0085;
+        public static final int gridviewexample=0x7f0a0040;
+        public static final int hello=0x7f0a000f;
+        public static final int helpContent=0x7f0a0077;
+        public static final int helpabout=0x7f0a0075;
+        public static final int hide_fragment=0x7f0a0013;
+        public static final int hint_Thank=0x7f0a002d;
+        public static final int hint_cancel=0x7f0a0033;
+        public static final int hint_confirm=0x7f0a0034;
+        public static final int hint_name=0x7f0a0030;
+        public static final int hint_payagain=0x7f0a0032;
+        public static final int hint_paycondition=0x7f0a002f;
+        public static final int hint_payfail=0x7f0a0031;
+        public static final int hint_paymethod=0x7f0a002e;
+        public static final int hint_success=0x7f0a0028;
+        public static final int indepCalText=0x7f0a0073;
+        public static final int indepClearText=0x7f0a0074;
+        public static final int indeter=0x7f0a007c;
+        public static final int item_about=0x7f0a0012;
+        public static final int itemdeleted=0x7f0a0046;
+        public static final int itemmanipulation=0x7f0a003f;
+        public static final int left=0x7f0a007a;
+        public static final int limit=0x7f0a003e;
+        public static final int linkedin=0x7f0a004e;
+        public static final int log=0x7f0a0071;
+        public static final int lparenthesis=0x7f0a0069;
+        public static final int menu_beer=0x7f0a0036;
+        public static final int menu_beer2=0x7f0a0037;
+        public static final int menu_beer3=0x7f0a0038;
+        public static final int menu_beer4=0x7f0a0039;
+        /**  三级导航相关end 
+ ListViewsx效果集合Start 
+         */
+        public static final int menu_donate=0x7f0a0035;
+        public static final int menu_github=0x7f0a003a;
+        public static final int more=0x7f0a0072;
+        public static final int morefuncs=0x7f0a0076;
+        public static final int multiply=0x7f0a0062;
+        public static final int myspace=0x7f0a0050;
+        public static final int next=0x7f0a008d;
+        public static final int num0=0x7f0a005b;
+        /**  circlemenu 
+ 计算器Start 
+         */
+        public static final int num1=0x7f0a0052;
+        public static final int num2=0x7f0a0053;
+        public static final int num3=0x7f0a0054;
+        public static final int num4=0x7f0a0055;
+        public static final int num5=0x7f0a0056;
+        public static final int num6=0x7f0a0057;
+        public static final int num7=0x7f0a0058;
+        public static final int num8=0x7f0a0059;
+        public static final int num9=0x7f0a005a;
+        public static final int or=0x7f0a005f;
+        public static final int order_collectInfo=0x7f0a0020;
+        public static final int order_date=0x7f0a001f;
+        public static final int order_num=0x7f0a001b;
+        public static final int order_num2=0x7f0a001c;
+        public static final int order_num3=0x7f0a001d;
+        public static final int order_num4=0x7f0a001e;
+        public static final int order_paymentInfo=0x7f0a0021;
+        public static final int order_serial_num=0x7f0a0022;
+        public static final int order_sum=0x7f0a0023;
+        public static final int paydate1=0x7f0a002b;
+        public static final int paydate2=0x7f0a002c;
+        public static final int payment1=0x7f0a0029;
+        public static final int payment2=0x7f0a002a;
+        public static final int pi=0x7f0a005c;
+        public static final int remainder=0x7f0a006b;
+        public static final int removeselected=0x7f0a0044;
+        public static final int right=0x7f0a007b;
+        public static final int rparenthesis=0x7f0a006a;
+        public static final int serach_payment=0x7f0a0024;
+        public static final int show_fragment=0x7f0a0014;
+        public static final int sin=0x7f0a006e;
+        public static final int sqrt=0x7f0a0064;
+        public static final int start_app=0x7f0a0051;
+        public static final int sub=0x7f0a0061;
+        public static final int swipedismiss=0x7f0a0042;
+        public static final int tan=0x7f0a0070;
+        public static final int taptoundo=0x7f0a0047;
+        /**   
+ 翻页效果的listView ListForPage  Start 
+         */
+        public static final int textLeft=0x7f0a0086;
+        public static final int textRight=0x7f0a0087;
+        public static final int third_hint1=0x7f0a0018;
+        public static final int third_hint2=0x7f0a0019;
+        public static final int third_refresh=0x7f0a0017;
+        public static final int third_search=0x7f0a0016;
+        public static final int third_timeout=0x7f0a001a;
+        /**  三级导航相关start 
+         */
+        public static final int third_titlebar_text=0x7f0a0015;
+        public static final int total=0x7f0a0088;
+        public static final int total_money=0x7f0a0025;
+        public static final int total_money2=0x7f0a0026;
+        public static final int total_money3=0x7f0a0027;
+        public static final int transient_state=0x7f0a008f;
+        public static final int twitter=0x7f0a004c;
+        /**  小米启动 
+ TabHostMovie 
+         */
+        public static final int up=0x7f0a008c;
+        public static final int viewpropertyanimator=0x7f0a008e;
+        public static final int wordpress=0x7f0a004f;
     }
     public static final class style {
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
     
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
+
+
+
         
 
         Base application theme for API 11+. This theme completely replaces
@@ -2200,11 +2384,41 @@ containing a value of this type.
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f0b007f;
+        public static final int AppBaseTheme=0x7f0b0080;
+        /** 
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+    
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+        
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+        
+         */
+        public static final int AppBaseThemes=0x7f0b007f;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f0b0080;
+        public static final int AppTheme=0x7f0b0081;
+        /**  自定义下载进度条样式End 
+ Loding_dialog样式Start 
+         */
+        public static final int Dialog_bocop=0x7f0b008f;
+        public static final int PopupAnimation=0x7f0b0084;
         /**  Mimic text appearance in select_dialog_item.xml 
          */
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0b0061;
@@ -2298,6 +2512,10 @@ containing a value of this type.
         /**  Base platform-dependent theme providing a light-themed activity. 
          */
         public static final int Theme_Base_Light=0x7f0b0079;
+        public static final int ThirdHint1=0x7f0b0083;
+        /**  三级菜单中字体的格式 
+         */
+        public static final int ThirdTitleText=0x7f0b0082;
         /**  Styles in here can be extended for customisation in your application. Each utilises
          one of the Base styles. If Holo themes are available on the current platform version
          they will be used instead of the compat styles. 
@@ -2388,6 +2606,47 @@ containing a value of this type.
         public static final int Widget_AppCompat_ProgressBar=0x7f0b000a;
         public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0009;
         public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0022;
+        /**  按钮 
+         */
+        public static final int button_style=0x7f0b0087;
+        public static final int chat_content_date_style=0x7f0b0093;
+        /**  GViewPager的End 
+ 微信页面 
+         */
+        public static final int chat_text_date_style=0x7f0b0092;
+        public static final int chat_text_name_style=0x7f0b0094;
+        /**  Dialog取掉白色边框 设置背景透明 
+         */
+        public static final int dialog=0x7f0b008a;
+        /**  Loding_dialog样式End 
+ PopupWindows 
+         */
+        public static final int grouplist_item_textview=0x7f0b0090;
+        /**  ListView 的基本布局 
+         */
+        public static final int listview=0x7f0b0088;
+        /**  指定消失的动画xml 
+         */
+        public static final int mypopwindow_anim_style=0x7f0b0085;
+        public static final int progressBarHorizontal=0x7f0b008c;
+        public static final int progressBarHorizontal_arabia=0x7f0b008d;
+        /**  自定义Gallery+ListView页面用到的样式End 
+ 自定义下载进度条样式Strat 
+         */
+        public static final int progressBarHorizontal_color=0x7f0b008b;
+        public static final int progressBarHorizontal_indeter=0x7f0b008e;
+        /**  PopupWindows 
+ GViewPager的Start 
+         */
+        public static final int radioButton=0x7f0b0091;
+        /**  Dialog取掉白色边框 
+ <item name="android:backgroundDimEnabled">false</item> 
+         */
+        public static final int user_dialog=0x7f0b0089;
+        /**  自定义Gallery+ListView页面用到的样式Start 
+ View线的样式 
+         */
+        public static final int viewlinestyle=0x7f0b0086;
     }
     public static final class styleable {
         /**  ============================================ 
