@@ -38,6 +38,7 @@ public class ZakerActivity extends Activity implements OnClickListener {
 		ani.setRepeatMode(Animation.REVERSE);
 		ani.setRepeatCount(Animation.INFINITE);
 		tvHint.startAnimation(ani);
+		btnAbove.startAnimation(ani);
 		btnBelow.setOnClickListener(this);
 		btnAbove.setOnClickListener(this);
 	}

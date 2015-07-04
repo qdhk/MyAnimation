@@ -10,6 +10,7 @@ package com.nr.myanimation;
 
 import com.nr.myanimation.adapter.AnimationAdapter;
 import com.nr.myanimation.base.ContantValue;
+import com.nr.myanimation.splashactivity.LensFocusActivity;
 import com.nr.myanimation.splashactivity.ZakerActivity;
 
 import android.app.Activity;
@@ -54,9 +55,9 @@ public class SplashMainActivity extends Activity implements OnItemClickListener 
 		case 0:
 			startIntent(ZakerActivity.class);
 			break;
-		// case 1:
-		// startIntent(LensFocusActivity.class);
-		// break;
+		case 1:
+			startIntent(LensFocusActivity.class);
+			break;
 		// case 2:
 		// startIntent(RotateActivity.class);
 		// break;

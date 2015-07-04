@@ -30,6 +30,10 @@
             android:name="com.nr.myanimation.splashactivity.ZakerActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.nr.myanimation.splashactivity.LensFocusActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>
