@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
+import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -19,7 +20,9 @@ import com.nr.myanimation.R;
 import com.haarman.listviewanimations.ArrayAdapter;
 import com.haarman.listviewanimations.itemmanipulation.OnDismissCallback;
 import com.haarman.listviewanimations.itemmanipulation.SwipeDismissAdapter;
+import com.haarman.listviewanimations.swinginadapters.AnimationAdapter;
 import com.haarman.listviewanimations.swinginadapters.prepared.SwingBottomInAnimationAdapter;
+import com.haarman.listviewanimations.swinginadapters.prepared.SwingLeftInAnimationAdapter;
 
 public class GoogleCardsActivity extends Activity implements OnDismissCallback {
 
@@ -51,6 +54,10 @@ public class GoogleCardsActivity extends Activity implements OnDismissCallback {
 
 		mGoogleCardsAdapter.addAll(getItems());
 
+		// AnimationAdapter animAdapter = new SwingLeftInAnimationAdapter(
+		// mGoogleCardsAdapter);
+		// animAdapter.setAbsListView(listView);
+		// listView.setAdapter(animAdapter);
 	}
 
 	public void setListener() {

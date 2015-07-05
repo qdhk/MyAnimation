@@ -11,6 +11,8 @@ package com.nr.myanimation;
 import com.nr.myanimation.adapter.AnimationAdapter;
 import com.nr.myanimation.base.ContantValue;
 import com.nr.myanimation.customactivity.OutTicketActivity;
+import com.nr.myanimation.listviewactivity.AppearanceExamplesActivity;
+import com.nr.myanimation.listviewactivity.ExpandableListItemActivity;
 import com.nr.myanimation.listviewactivity.GoogleCardsActivity;
 import com.nr.myanimation.splashactivity.LensFocusActivity;
 import com.nr.myanimation.splashactivity.ZakerActivity;
@@ -45,7 +47,7 @@ public class SplashMainActivity extends Activity implements OnItemClickListener 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_anim_complex);
 		listView_anim_complex = (ListView) findViewById(R.id.listView_anim_complex);
-		adapter = new AnimationAdapter(this, ContantValue.splashName);
+		adapter = new AnimationAdapter(this, ContantValue.splashName1);
 		listView_anim_complex.setAdapter(adapter);
 		listView_anim_complex.setOnItemClickListener(this);
 	}
@@ -66,12 +68,12 @@ public class SplashMainActivity extends Activity implements OnItemClickListener 
 		case 3:
 			startIntent(OutTicketActivity.class);
 			break;
-		// case 4:
-		// startIntent(ViewPagerActivity.class);
-		// break;
-		// case 5:
-		// startIntent(Activity1.class);
-		// break;
+		case 4:
+			startIntent(AppearanceExamplesActivity.class);
+			break;
+		case 5:
+			startIntent(ExpandableListItemActivity.class);
+			break;
 		// case 6:
 		// startIntent(FadeSplashScreenActivity.class);
 		// break;
