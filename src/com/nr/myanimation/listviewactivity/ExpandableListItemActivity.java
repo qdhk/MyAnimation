@@ -7,7 +7,12 @@ import java.util.List;
 
 import com.nr.myanimation.R;
 import com.haarman.listviewanimations.itemmanipulation.ExpandableListItemAdapter;
+import com.haarman.listviewanimations.itemmanipulation.OnDismissCallback;
+import com.haarman.listviewanimations.itemmanipulation.SwipeDismissAdapter;
+import com.haarman.listviewanimations.swinginadapters.AnimationAdapter;
 import com.haarman.listviewanimations.swinginadapters.prepared.AlphaInAnimationAdapter;
+import com.haarman.listviewanimations.swinginadapters.prepared.SwingBottomInAnimationAdapter;
+import com.haarman.listviewanimations.swinginadapters.prepared.SwingLeftInAnimationAdapter;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -23,7 +28,8 @@ import android.widget.TextView;
  * @author Administrator
  * 
  */
-public class ExpandableListItemActivity extends AppearanceExamplesActivity {
+public class ExpandableListItemActivity extends AppearanceExamplesActivity
+		implements OnDismissCallback {
 
 	private MyExpandableListItemAdapter mExpandableListItemAdapter;
 
@@ -33,10 +39,17 @@ public class ExpandableListItemActivity extends AppearanceExamplesActivity {
 		super.onCreate(savedInstanceState);
 		mExpandableListItemAdapter = new MyExpandableListItemAdapter(this,
 				getItems());
-		AlphaInAnimationAdapter alphaInAnimationAdapter = new AlphaInAnimationAdapter(
-				mExpandableListItemAdapter);
-		alphaInAnimationAdapter.setAbsListView(getListView());
-		getListView().setAdapter(alphaInAnimationAdapter);
+		// 设置透明动画
+		// AlphaInAnimationAdapter alphaInAnimationAdapter = new
+		// AlphaInAnimationAdapter(
+		// mExpandableListItemAdapter);
+		// alphaInAnimationAdapter.setAbsListView(getListView());
+		// getListView().setAdapter(alphaInAnimationAdapter);
+		// 设置从底部_左边进入动画
+		AnimationAdapter animAdapter = new SwingBottomInAnimationAdapter(
+				new SwingLeftInAnimationAdapter(mExpandableListItemAdapter));
+		animAdapter.setAbsListView(getListView());
+		getListView().setAdapter(animAdapter);
 	}
 
 	private static class MyExpandableListItemAdapter extends

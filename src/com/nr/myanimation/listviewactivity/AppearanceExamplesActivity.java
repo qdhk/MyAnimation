@@ -6,6 +6,8 @@ package com.nr.myanimation.listviewactivity;
 import java.util.ArrayList;
 
 import com.haarman.listviewanimations.ArrayAdapter;
+import com.haarman.listviewanimations.itemmanipulation.OnDismissCallback;
+import com.haarman.listviewanimations.itemmanipulation.SwipeDismissAdapter;
 import com.haarman.listviewanimations.swinginadapters.AnimationAdapter;
 import com.haarman.listviewanimations.swinginadapters.prepared.AlphaInAnimationAdapter;
 import com.haarman.listviewanimations.swinginadapters.prepared.ScaleInAnimationAdapter;
@@ -20,16 +22,17 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import com.nr.myanimation.R;
 
 /**
- * @author Administrator
- * 
+ * @author Administrator 从左进入，swipetodismiss，从下进入等动画可以叠加
  */
-public class AppearanceExamplesActivity extends Activity {
+public class AppearanceExamplesActivity extends Activity implements
+		OnDismissCallback {
 	private BaseAdapter mAdapter;
 
 	private ListView mListView;
@@ -45,12 +48,27 @@ public class AppearanceExamplesActivity extends Activity {
 
 		mCurrentListView = mListView;
 		mAdapter = new MyAdapter(this, getItems());
-		setAlphaAdapter();
-		setLeftAdapter();
+		// setAlphaAdapter();
+		// setLeftAdapter();
+		// setSwipeDismissAdapter();
+		setSwipe_left_DismissAdapter();
 	}
 
 	public ListView getListView() {
 		return mListView;
+	}
+
+	private void setSwipeDismissAdapter() {
+		SwipeDismissAdapter adapter = new SwipeDismissAdapter(mAdapter, this);
+		adapter.setAbsListView(getListView());
+		getListView().setAdapter(adapter);
+	}
+
+	private void setSwipe_left_DismissAdapter() {
+		SwipeDismissAdapter adapter = new SwipeDismissAdapter(
+				new SwingLeftInAnimationAdapter(mAdapter), this);
+		adapter.setAbsListView(getListView());
+		getListView().setAdapter(adapter);
 	}
 
 	private void setAlphaAdapter() {
@@ -147,6 +165,21 @@ public class AppearanceExamplesActivity extends Activity {
 			tv.setText(getItem(position));
 
 			return tv;
+		}
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * com.haarman.listviewanimations.itemmanipulation.OnDismissCallback#onDismiss
+	 * (android.widget.AbsListView, int[])
+	 */
+	@Override
+	public void onDismiss(AbsListView listView, int[] reverseSortedPositions) {
+		// TODO Auto-generated method stub
+		for (int position : reverseSortedPositions) {
+			((ArrayAdapter<Integer>) mAdapter).remove(position);
 		}
 	}
 }
