@@ -5,9 +5,12 @@ package com.nr.myanimation.customactivity;
 
 import com.nr.myanimation.R;
 import android.app.Activity;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.view.Window;
+import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -40,7 +43,15 @@ public class OutTicketActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-
+		// if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+		// // Í¸Ã÷×´Ì¬À¸
+		// getWindow().addFlags(
+		// WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+		// // Í¸Ã÷µ¼º½À¸
+		// getWindow().addFlags(
+		// WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+		// }
+		// requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_imitate_outticket);
 		rl_payInfo = (RelativeLayout) findViewById(R.id.rl_payInfo);
 		imageView = (ImageView) findViewById(R.id.iv_success);

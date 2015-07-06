@@ -14,6 +14,7 @@ import com.nr.myanimation.customactivity.OutTicketActivity;
 import com.nr.myanimation.listviewactivity.AppearanceExamplesActivity;
 import com.nr.myanimation.listviewactivity.ExpandableListItemActivity;
 import com.nr.myanimation.listviewactivity.GoogleCardsActivity;
+import com.nr.myanimation.listviewactivity.sortlistview.SortListViewMainActivity;
 import com.nr.myanimation.splashactivity.LensFocusActivity;
 import com.nr.myanimation.splashactivity.ZakerActivity;
 
@@ -74,9 +75,9 @@ public class SplashMainActivity extends Activity implements OnItemClickListener 
 		case 5:
 			startIntent(ExpandableListItemActivity.class);
 			break;
-		// case 6:
-		// startIntent(FadeSplashScreenActivity.class);
-		// break;
+		case 6:
+			startIntent(SortListViewMainActivity.class);
+			break;
 		// case 7:
 		// startIntent(Fade2MainActivity.class);
 		// break;
