@@ -17,6 +17,9 @@ import com.nr.myanimation.listviewactivity.GoogleCardsActivity;
 import com.nr.myanimation.listviewactivity.sortlistview.SortListViewMainActivity;
 import com.nr.myanimation.splashactivity.LensFocusActivity;
 import com.nr.myanimation.splashactivity.ZakerActivity;
+import com.nr.myanimation.ui.gallery.GalleryMainActivity;
+import com.nr.myanimation.ui.gallery.GalleryMainActivity2;
+import com.nr.myanimation.utils.ActivitySplitAnimationUtil;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -78,10 +81,12 @@ public class SplashMainActivity extends Activity implements OnItemClickListener 
 		case 6:
 			startIntent(SortListViewMainActivity.class);
 			break;
-		// case 7:
-		// startIntent(Fade2MainActivity.class);
-		// break;
-
+		case 7:
+			startIntent(GalleryMainActivity.class);
+			break;
+		case 8:
+			startIntent(GalleryMainActivity2.class);
+			break;
 		default:
 			break;
 		}
