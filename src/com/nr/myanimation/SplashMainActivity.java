@@ -8,11 +8,22 @@ package com.nr.myanimation;
  *
  */
 
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ListView;
+import android.widget.Toast;
+
 import com.nr.myanimation.adapter.AnimationAdapter;
 import com.nr.myanimation.base.ContantValue;
+import com.nr.myanimation.base.ExitApplication;
 import com.nr.myanimation.customactivity.JellyPagerActivity;
 import com.nr.myanimation.customactivity.OutTicketActivity;
 import com.nr.myanimation.listviewactivity.AppearanceExamplesActivity;
+import com.nr.myanimation.listviewactivity.ExpandableListDemo;
 import com.nr.myanimation.listviewactivity.ExpandableListItemActivity;
 import com.nr.myanimation.listviewactivity.GoogleCardsActivity;
 import com.nr.myanimation.listviewactivity.sortlistview.SortListViewMainActivity;
@@ -20,16 +31,7 @@ import com.nr.myanimation.splashactivity.LensFocusActivity;
 import com.nr.myanimation.splashactivity.ZakerActivity;
 import com.nr.myanimation.ui.gallery.GalleryMainActivity;
 import com.nr.myanimation.ui.gallery.GalleryMainActivity2;
-import com.nr.myanimation.utils.ActivitySplitAnimationUtil;
-
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.BaseAdapter;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ListView;
+import com.nr.myanimation.ui.gallery.GalleryMainActivity3;
 
 /**
  * Splash主页面 继承BaseActivity获取ActionBar
@@ -38,6 +40,8 @@ import android.widget.ListView;
  */
 public class SplashMainActivity extends Activity implements OnItemClickListener {
 
+	private long currentBackPressedTime = 0;
+	private static final int BACK_PRESSED_INTERVAL = 2000;
 	private AnimationAdapter adapter;
 	private ListView listView_anim_complex;
 
@@ -80,15 +84,21 @@ public class SplashMainActivity extends Activity implements OnItemClickListener 
 			startIntent(ExpandableListItemActivity.class);
 			break;
 		case 6:
-			startIntent(SortListViewMainActivity.class);
+			startIntent(ExpandableListDemo.class);
 			break;
 		case 7:
-			startIntent(GalleryMainActivity.class);
+			startIntent(SortListViewMainActivity.class);
 			break;
 		case 8:
-			startIntent(GalleryMainActivity2.class);
+			startIntent(GalleryMainActivity.class);
 			break;
 		case 9:
+			startIntent(GalleryMainActivity2.class);
+			break;
+		case 10:
+			startIntent(GalleryMainActivity3.class);
+			break;
+		case 11:
 			startIntent(JellyPagerActivity.class);
 			break;
 		default:
@@ -107,4 +117,13 @@ public class SplashMainActivity extends Activity implements OnItemClickListener 
 		startActivity(intent);
 	}
 
+	@Override
+	public void onBackPressed() {
+		if (System.currentTimeMillis() - currentBackPressedTime > BACK_PRESSED_INTERVAL) {
+			currentBackPressedTime = System.currentTimeMillis();
+			Toast.makeText(this, "再按一次返回键退出程序", Toast.LENGTH_SHORT).show();
+		} else {
+			ExitApplication.getInstance().exit(this);
+		}
+	}
 }

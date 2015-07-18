@@ -2018,7 +2018,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f050030;
         public static final int action_mode_bar_stub=0x7f05002f;
         public static final int action_mode_close_button=0x7f050023;
-        public static final int action_settings=0x7f050077;
+        public static final int action_settings=0x7f050079;
         public static final int activity_appearanceexample_listview=0x7f050060;
         public static final int activity_chooser_view_content=0x7f050024;
         public static final int activity_expandablelistitem_card_content=0x7f050062;
@@ -2026,14 +2026,14 @@ containing a value of this type.
         public static final int activity_googlecards_card_imageview=0x7f050065;
         public static final int activity_googlecards_card_textview=0x7f050064;
         public static final int activity_googlecards_listview=0x7f050063;
-        public static final int ae=0x7f050075;
-        public static final int af=0x7f050076;
+        public static final int ae=0x7f050077;
+        public static final int af=0x7f050078;
         public static final int always=0x7f05000b;
-        public static final int av=0x7f050074;
+        public static final int av=0x7f050076;
         public static final int beginning=0x7f050011;
         public static final int btn_Below=0x7f050069;
         public static final int btn_above=0x7f05006b;
-        public static final int catalog=0x7f050070;
+        public static final int catalog=0x7f050072;
         public static final int checkbox=0x7f05002c;
         public static final int collapseActionView=0x7f05000d;
         public static final int country_lvcountry=0x7f05005e;
@@ -2047,6 +2047,7 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f050025;
         public static final int expanded_menu=0x7f05002b;
         public static final int filter_edit=0x7f05005d;
+        public static final int gallery=0x7f05006e;
         public static final int handle=0x7f05005a;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
@@ -2054,7 +2055,7 @@ containing a value of this type.
         public static final int ifRoom=0x7f05000a;
         public static final int ig_line=0x7f050047;
         public static final int image=0x7f050026;
-        public static final int imageView1=0x7f050071;
+        public static final int imageView1=0x7f050073;
         public static final int imageView_pic=0x7f050066;
         public static final int iv_export=0x7f05004b;
         public static final int iv_success=0x7f050049;
@@ -2062,7 +2063,7 @@ containing a value of this type.
         public static final int listMode=0x7f050001;
         public static final int listView_anim_complex=0x7f050043;
         public static final int list_item=0x7f050028;
-        public static final int ll=0x7f05006d;
+        public static final int ll=0x7f05006f;
         public static final int ll_order_num=0x7f05004d;
         public static final int ll_payment=0x7f050053;
         public static final int ll_payment_date=0x7f050056;
@@ -2101,13 +2102,14 @@ containing a value of this type.
         public static final int sidrbar=0x7f05005f;
         public static final int split_action_bar=0x7f05001d;
         public static final int submit_area=0x7f050040;
+        public static final int switcher=0x7f05006d;
         public static final int tabMode=0x7f050002;
         public static final int tag_async_image_view_position=0x7f050018;
-        public static final int textView1=0x7f050072;
-        public static final int textView2=0x7f050073;
+        public static final int textView1=0x7f050074;
+        public static final int textView2=0x7f050075;
         public static final int textView_desc=0x7f050067;
-        public static final int textView_name=0x7f05006f;
-        public static final int textView_num=0x7f05006e;
+        public static final int textView_name=0x7f050071;
+        public static final int textView_num=0x7f050070;
         public static final int title=0x7f05002a;
         public static final int title_container=0x7f050031;
         public static final int top_action_bar=0x7f05001f;
@@ -2189,10 +2191,11 @@ containing a value of this type.
         public static final int activity_main=0x7f030023;
         public static final int activity_splash_lens_focus=0x7f030024;
         public static final int activity_splash_zaker=0x7f030025;
-        public static final int item_listview_anim=0x7f030026;
-        public static final int item_sort_listview=0x7f030027;
-        public static final int jellypager_frag_layout=0x7f030028;
-        public static final int support_simple_spinner_dropdown_item=0x7f030029;
+        public static final int imageswitcherpage=0x7f030026;
+        public static final int item_listview_anim=0x7f030027;
+        public static final int item_sort_listview=0x7f030028;
+        public static final int jellypager_frag_layout=0x7f030029;
+        public static final int support_simple_spinner_dropdown_item=0x7f03002a;
     }
     public static final class menu {
         public static final int main=0x7f0e0000;

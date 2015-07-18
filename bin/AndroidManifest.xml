@@ -51,6 +51,10 @@
             android:label="@string/app_name" >
         </activity>
         <activity
+            android:name="com.nr.myanimation.listviewactivity.ExpandableListDemo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
             android:name="com.nr.myanimation.listviewactivity.sortlistview.SortListViewMainActivity"
             android:label="@string/app_name" >
         </activity>
@@ -60,6 +64,10 @@
         </activity>
         <activity
             android:name="com.nr.myanimation.ui.gallery.GalleryMainActivity2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.nr.myanimation.ui.gallery.GalleryMainActivity3"
             android:label="@string/app_name" >
         </activity>
         <activity
