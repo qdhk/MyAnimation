@@ -10,6 +10,7 @@ package com.nr.myanimation;
 
 import com.nr.myanimation.adapter.AnimationAdapter;
 import com.nr.myanimation.base.ContantValue;
+import com.nr.myanimation.customactivity.JellyPagerActivity;
 import com.nr.myanimation.customactivity.OutTicketActivity;
 import com.nr.myanimation.listviewactivity.AppearanceExamplesActivity;
 import com.nr.myanimation.listviewactivity.ExpandableListItemActivity;
@@ -86,6 +87,9 @@ public class SplashMainActivity extends Activity implements OnItemClickListener 
 			break;
 		case 8:
 			startIntent(GalleryMainActivity2.class);
+			break;
+		case 9:
+			startIntent(JellyPagerActivity.class);
 			break;
 		default:
 			break;

@@ -78,7 +78,7 @@ public interface ContantValue {
 			"Viewpager引导风格", "中心打开式", "ShowTime2秒式", "ShowTime2秒式(第二种实现方法)" };
 	String[] splashName1 = { "Zaker风格", "镜头风格_由远至近", "GoogleCardsListView效果",
 			"火车出票动画", "由左右下透明渐变Listview动画", "expandablelistview", "通讯录1",
-			"Gallery1", "Gallery2" };
+			"Gallery1", "Gallery2", "jellyPager" };
 
 	// ---------------------------Imitate高仿效果页面------------------------------------
 	String[] imitateName = { "火车票出票动画", "淘宝菜单", "优酷导航菜单", "3D图片浏览", "下拉选择框",
@@ -105,4 +105,7 @@ public interface ContantValue {
 	// ---------------------------SplashMain页面------------------------------------
 	String[] tabName = { "ViewPager实现页面滑动切换", "横向ScrollView+Viewpager滑动切换",
 			"ViewPager+GridView滑动切换", "横向拖动TabHost" };
+	String keyString = "image";
+	int[] images = { R.drawable.a, R.drawable.b, R.drawable.c, R.drawable.d,
+			R.drawable.e };
 }

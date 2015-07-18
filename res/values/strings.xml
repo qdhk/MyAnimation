@@ -201,4 +201,10 @@
     <string name="next">下一页</string>
     <!-- TabHostMovie -->
 
+
+    <!-- Jellypager -->
+    <string name="tv_1">便便的离去，是马桶的吸引，还是屁股的不挽留？</string>
+    <string name="tv_2">美丽风景……</string>
+    <!-- Jellypager -->
+
 </resources>
