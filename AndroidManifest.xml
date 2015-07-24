@@ -74,6 +74,10 @@
             android:name="com.nr.myanimation.customactivity.JellyPagerActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.nr.myanimation.ui.custom.circlemenu.CircleMenuMainActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

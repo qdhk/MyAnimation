@@ -29,6 +29,7 @@ import com.nr.myanimation.listviewactivity.GoogleCardsActivity;
 import com.nr.myanimation.listviewactivity.sortlistview.SortListViewMainActivity;
 import com.nr.myanimation.splashactivity.LensFocusActivity;
 import com.nr.myanimation.splashactivity.ZakerActivity;
+import com.nr.myanimation.ui.custom.circlemenu.CircleMenuMainActivity;
 import com.nr.myanimation.ui.gallery.GalleryMainActivity;
 import com.nr.myanimation.ui.gallery.GalleryMainActivity2;
 import com.nr.myanimation.ui.gallery.GalleryMainActivity3;
@@ -100,6 +101,9 @@ public class SplashMainActivity extends Activity implements OnItemClickListener 
 			break;
 		case 11:
 			startIntent(JellyPagerActivity.class);
+			break;
+		case 12:
+			startIntent(CircleMenuMainActivity.class);
 			break;
 		default:
 			break;
