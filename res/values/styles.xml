@@ -2,33 +2,25 @@
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
     <style name="AppBaseThemes" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
-    </style>
-
-    <style name="AppBaseThemes" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
+            backward-compatibility can go here.
         -->
     </style>
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
     <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
+            backward-compatibility can go here.
         -->
     </style>
 
@@ -37,6 +29,9 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+    <style name="WindowIsTranslucentTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
     <!-- 三级菜单中字体的格式 -->
     <style name="ThirdTitleText">
         <item name="android:textSize">22sp</item>
@@ -156,20 +151,22 @@
         <item name="android:textColor">#ffffffff</item>
     </style>
     <!-- PopupWindows -->
-    
+
+
     <!-- GViewPager的Start -->
     <style name="radioButton">
-    	<item name="android:layout_width">100dp</item>//每一个的宽度
-    	<item name="android:layout_height">fill_parent</item>//高度
-    	<item name="android:layout_weight">1.0</item>//比重
-    	<item name="android:padding">10dp</item>
-    	<item name="android:gravity">center</item>
-    	<item name="android:button">@null</item>
+        <item name="android:layout_width">100dp</item>
+//每一个的宽度                                                        <item name="android:layout_height">fill_parent</item>
+//高度                                                        <item name="android:layout_weight">1.0</item>
+//比重                                                        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
     </style>
     <!-- GViewPager的End -->
-    
+
+
     <!-- 微信页面 -->
-     <style name="chat_text_date_style">
+    <style name="chat_text_date_style">
         <item name="android:padding">2dp</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:textSize">12sp</item>
@@ -193,5 +190,14 @@
         <item name="android:gravity">center</item>
     </style>
     <!-- 微信页面 -->
+
+
+    <!-- Swipebacklayout -->
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
 
 </resources>

@@ -29,6 +29,7 @@ import com.nr.myanimation.listviewactivity.GoogleCardsActivity;
 import com.nr.myanimation.listviewactivity.sortlistview.SortListViewMainActivity;
 import com.nr.myanimation.splashactivity.LensFocusActivity;
 import com.nr.myanimation.splashactivity.ZakerActivity;
+import com.nr.myanimation.swipebackactivity.SwipeBackActivityTest1;
 import com.nr.myanimation.ui.custom.circlemenu.CircleMenuMainActivity;
 import com.nr.myanimation.ui.gallery.GalleryMainActivity;
 import com.nr.myanimation.ui.gallery.GalleryMainActivity2;
@@ -104,6 +105,9 @@ public class SplashMainActivity extends Activity implements OnItemClickListener 
 			break;
 		case 12:
 			startIntent(CircleMenuMainActivity.class);
+			break;
+		case 13:
+			startIntent(SwipeBackActivityTest1.class);
 			break;
 		default:
 			break;

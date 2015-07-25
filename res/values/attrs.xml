@@ -30,7 +30,7 @@
     <declare-styleable name="CircleImageView">
         <attr name="name" format="string" />
     </declare-styleable>
-    
+
     <!-- DiaLog集合Start -->
     <declare-styleable name="com.casee.adsdk.CaseeAdView">
         <attr name="backgroundColor" format="color" />
@@ -40,12 +40,28 @@
         <attr name="vertical" format="boolean" />
     </declare-styleable>
     <!-- DiaLog集合End -->
-    
+
+
     <!-- 小米启动 -->
-     <declare-styleable name="gridview">
-            <attr name="mi_textColor" format="color" />
-            <attr name="mi_textSize" format="dimension" />
-        </declare-styleable>
+    <declare-styleable name="gridview">
+        <attr name="mi_textColor" format="color" />
+        <attr name="mi_textSize" format="dimension" />
+    </declare-styleable>
     <!-- 小米启动 -->
+
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="edge_size" format="dimension" />
+        <attr name="edge_flag">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="all" value="3" />
+        </attr>
+        <attr name="shadow_left" format="reference" />
+        <attr name="shadow_right" format="reference" />
+        <attr name="shadow_bottom" format="reference" />
+    </declare-styleable>
+
+    <attr name="SwipeBackLayoutStyle" format="reference" />
 
 </resources>
