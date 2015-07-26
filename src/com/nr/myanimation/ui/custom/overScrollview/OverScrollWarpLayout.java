@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.nr.myanimation.widget;
+package com.nr.myanimation.ui.custom.overScrollview;
 
 /**
  * @author Administrator

@@ -1,12 +1,13 @@
 /**
  * 
  */
-package com.nr.myanimation.widget;
+package com.nr.myanimation.ui.custom.overScrollview;
 
 /**
  * @author Administrator
  *
  */
+
 import android.content.Context;
 import android.os.Build;
 import android.support.v4.view.ViewCompat;

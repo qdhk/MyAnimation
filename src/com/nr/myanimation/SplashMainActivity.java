@@ -31,6 +31,9 @@ import com.nr.myanimation.splashactivity.LensFocusActivity;
 import com.nr.myanimation.splashactivity.ZakerActivity;
 import com.nr.myanimation.swipebackactivity.SwipeBackActivityTest1;
 import com.nr.myanimation.ui.custom.circlemenu.CircleMenuMainActivity;
+import com.nr.myanimation.ui.custom.clickedeffect.ClickedEffectActivity;
+import com.nr.myanimation.ui.custom.iosdialog.IosDialogActivity;
+import com.nr.myanimation.ui.custom.overScrollview.OverScrollActivity;
 import com.nr.myanimation.ui.gallery.GalleryMainActivity;
 import com.nr.myanimation.ui.gallery.GalleryMainActivity2;
 import com.nr.myanimation.ui.gallery.GalleryMainActivity3;
@@ -108,6 +111,15 @@ public class SplashMainActivity extends Activity implements OnItemClickListener 
 			break;
 		case 13:
 			startIntent(SwipeBackActivityTest1.class);
+			break;
+		case 14:
+			startIntent(ClickedEffectActivity.class);
+			break;
+		case 15:
+			startIntent(IosDialogActivity.class);
+			break;
+		case 16:
+			startIntent(OverScrollActivity.class);
 			break;
 		default:
 			break;

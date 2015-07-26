@@ -79,7 +79,8 @@ public interface ContantValue {
 	String[] splashName1 = { "Zaker风格", "镜头风格_由远至近", "GoogleCardsListView效果",
 			"火车出票动画", "由左右下透明渐变Listview动画", "expandablelistview",
 			"expandablelistview2", "通讯录1", "Gallery1", "Gallery2", "Gallery3",
-			"jellyPager", "圆形旋转菜单", "SwipeBack" };
+			"jellyPager", "圆形旋转菜单", "SwipeBack", "自定义点击图片", "IosDialog",
+			"overscroll" };
 
 	// ---------------------------Imitate高仿效果页面------------------------------------
 	String[] imitateName = { "火车票出票动画", "淘宝菜单", "优酷导航菜单", "3D图片浏览", "下拉选择框",

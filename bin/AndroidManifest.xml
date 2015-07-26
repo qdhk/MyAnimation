@@ -83,6 +83,18 @@
             android:label="@string/app_name"
             android:theme="@style/WindowIsTranslucentTheme" >
         </activity>
+        <activity
+            android:name="com.nr.myanimation.ui.custom.clickedeffect.ClickedEffectActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.nr.myanimation.ui.custom.iosdialog.IosDialogActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.nr.myanimation.ui.custom.overScrollview.OverScrollActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>
